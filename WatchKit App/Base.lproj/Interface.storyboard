@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11129.12" systemVersion="16A201m" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.9"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055.5"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Get a ride" id="ORz-Hy-MuT"/>
+                        <paymentButton width="1" alignment="left" id="AYc-PO-FdI">
+                            <connections>
+                                <action selector="payPressedWithSender:" destination="AgC-eL-Hgc" id="IuW-5Z-uGW"/>
+                            </connections>
+                        </paymentButton>
+                    </items>
+                </controller>
+            </objects>
+        </scene>
+        <!--Confirmation-->
+        <scene sceneID="Ni1-dd-59F">
+            <objects>
+                <controller identifier="Confirmation" title="Confirmation" id="gyk-QZ-Pt4">
+                    <items>
+                        <label alignment="left" text="Thanks" id="ynK-vX-hKX">
+                            <fontDescription key="font" type="system" weight="semibold" pointSize="25"/>
+                        </label>
+                        <label alignment="left" text="Your ride has been booked" numberOfLines="2" id="EDC-p1-7go"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="320" y="37"/>
+        </scene>
+    </scenes>
+</document>
