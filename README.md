@@ -18,10 +18,12 @@ For more information about processing an Apple Pay payment using a payment platf
 
 ### Build
 
-Xcode 8.0, iOS 10.0 SDK, watchOS 3.0 SDK
+Xcode 10.1, iOS 10.0 SDK, watchOS 4.1 SDK
 
 ### Runtime
 
-iOS 10.0, watchOS 3.0
+iOS 10.1, watchOS 4.1
 
 Copyright (C) 2016 Apple Inc. All rights reserved.
+
+REASON FOR REISSUE: I UPGRADED THE CODE TO 10.1 AND SWIFT 4.1
